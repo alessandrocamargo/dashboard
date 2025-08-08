@@ -42,7 +42,7 @@ st.dataframe(df_filtrado[["Name", "CPU", "Operating system"]].reset_index(drop=T
 # Voltar para o portal
 st.markdown(
     """
-    <a href="https://seudominio.github.io/portal" target="_self">
+    <a href="https://alessandrocamargo.github.io/portal/" target="_self">
         <button style="background-color: #003366; color: white; padding: 10px 20px; 
         border: none; border-radius: 5px; cursor: pointer;">
             ⬅ Voltar para o Portal
@@ -51,4 +51,5 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
